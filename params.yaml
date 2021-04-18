@@ -1,10 +1,10 @@
 base:
-  project:qualitywine.project
-  random_state:42
-  target_col:TARGET
+  project: qualitywine.project
+  random_state: 42
+  target_col: TARGET
 
 data_source:
-  s3_source:data_given\qualitywine.csv
+  s3_source: data_given\qualitywine.csv
 
 load_data:
   row_dataset_csv: data\row\qualitywine.csv
@@ -17,7 +17,7 @@ split_data:
 estimators:
   ElasticNet:
     params:
-      alpha:0.88
+      alpha: 0.88
       l1_ratio: 0.89
 
 model_dir: saved_models
