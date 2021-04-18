@@ -19,7 +19,7 @@ files = [
     "params.yaml",
     ".gitignore",
     os.path.join("src","__init__.py"),
-    "README"
+    "README.md"
 ]
 
 for file_ in files:
