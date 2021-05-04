@@ -13,7 +13,7 @@ created a req file
 
 install the req
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 download the data from
 
