@@ -4,14 +4,14 @@ base:
   target_col: TARGET
 
 data_source:
-  s3_source: data_given\qualitywine.csv
+  s3_source: data_given\winequality.csv
 
 load_data:
-  row_dataset_csv: data\row\qualitywine.csv
+  row_dataset_csv: data\row\winequality.csv
 
 split_data:
-  train_path: data\processed\train_qualitywine.csv
-  test_path: data\processed\test_qualitywine.csv
+  train_path: data\processed\train_winequality.csv
+  test_path: data\processed\test_winequality.csv
   test_size: 0.2
 
 estimators:
