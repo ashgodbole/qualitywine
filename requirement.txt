@@ -1,4 +1,4 @@
 dvc
-dvc[drive]
+dvc[drpipive]
 sklearn
 pandas

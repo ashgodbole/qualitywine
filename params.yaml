@@ -4,10 +4,10 @@ base:
   target_col: TARGET
 
 data_source:
-  s3_source: data_given\winequality.csv
+  s3_source: C:/Users/ashle/Documents/qualitywine/data_given/winequality.csv
 
 load_data:
-  row_dataset_csv: data\row\winequality.csv
+  raw_dataset_csv: C:/Users/ashle/Documents/qualitywine/data/raw/winequality.csv
 
 split_data:
   train_path: data\processed\train_winequality.csv
