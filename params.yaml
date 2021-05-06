@@ -22,3 +22,7 @@ estimators:
 
 model_dir: saved_models
 
+reports:
+  params: C:/Users/ashle/Documents/qualitywine/report/params.json
+  scores: C:/Users/ashle/Documents/qualitywine/report/scores.json
+
