@@ -6,7 +6,7 @@ conda create -n qualitywine python=3.7 -y
 
 activate env
 ```bash
-conda activate wineq
+conda activate qualitywine
 ```
 
 created a req file
