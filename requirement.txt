@@ -1,3 +1,8 @@
+
+#local package install
+-e .
+
+#third party packages
 dvc
 dvc[drpipive]
 sklearn
