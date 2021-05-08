@@ -28,3 +28,5 @@ reports:
   params: C:/Users/ashle/Documents/qualitywine/report/params.json
   scores: C:/Users/ashle/Documents/qualitywine/report/scores.json
 
+webapp_model_dir: C:/Users/ashle/Documents/qualitywine/prediction_service/model/model.joblib
+
